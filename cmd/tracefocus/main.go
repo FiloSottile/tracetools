@@ -99,12 +99,3 @@ func main() {
 		log.Fatal(err)
 	}
 }
-
-func includes(list []uint64, val uint64) bool {
-	for _, v := range list {
-		if v == val {
-			return true
-		}
-	}
-	return false
-}

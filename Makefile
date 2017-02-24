@@ -6,11 +6,15 @@ V := 1 # When V is set, print commands and build progress.
 IGNORED_PACKAGES := /vendor/
 
 .PHONY: all
-all: tracefocus
+all: tracefocus tracehist
 
 .PHONY: tracefocus
 tracefocus: .GOPATH/.ok
 	$Q go install $(if $V,-v) $(VERSION_FLAGS) $(IMPORT_PATH)/cmd/tracefocus
+
+.PHONY: tracehist
+tracehist: .GOPATH/.ok
+	$Q go install $(if $V,-v) $(VERSION_FLAGS) $(IMPORT_PATH)/cmd/tracehist
 
 ##### =====> Utility targets <===== #####
 
