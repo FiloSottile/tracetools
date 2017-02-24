@@ -9,6 +9,50 @@
 			"branch": "master",
 			"path": "/profile",
 			"notests": true
+		},
+		{
+			"importpath": "github.com/wadey/gocovmerge",
+			"repository": "https://github.com/wadey/gocovmerge",
+			"vcs": "git",
+			"revision": "b5bfa59ec0adc420475f97f89b58045c721d761c",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/tools/cmd/goimports",
+			"repository": "https://go.googlesource.com/tools",
+			"vcs": "git",
+			"revision": "496819729719f9d07692195e0a94d6edd2251389",
+			"branch": "master",
+			"path": "/cmd/goimports",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/tools/cover",
+			"repository": "https://go.googlesource.com/tools",
+			"vcs": "git",
+			"revision": "496819729719f9d07692195e0a94d6edd2251389",
+			"branch": "master",
+			"path": "/cover",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/tools/go/ast/astutil",
+			"repository": "https://go.googlesource.com/tools",
+			"vcs": "git",
+			"revision": "496819729719f9d07692195e0a94d6edd2251389",
+			"branch": "master",
+			"path": "go/ast/astutil",
+			"notests": true
+		},
+		{
+			"importpath": "golang.org/x/tools/imports",
+			"repository": "https://go.googlesource.com/tools",
+			"vcs": "git",
+			"revision": "496819729719f9d07692195e0a94d6edd2251389",
+			"branch": "master",
+			"path": "imports",
+			"notests": true
 		}
 	]
 }
