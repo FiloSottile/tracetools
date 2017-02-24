@@ -1,0 +1,14 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/google/pprof/profile",
+			"repository": "https://github.com/google/pprof",
+			"vcs": "git",
+			"revision": "7eb5ba977f28f2ad8dd5f6bb82cc9b454e123cdc",
+			"branch": "master",
+			"path": "/profile",
+			"notests": true
+		}
+	]
+}
